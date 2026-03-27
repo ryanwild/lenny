@@ -3,10 +3,13 @@
     "target": "esnext",
     "module": "esnext",
     "strict": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "bundler"
   },
   "include": [
     "./src/**/*.ts"
+  ],
+  "types": [
+    "vitest/globals"
   ],
   "exclude": [
     "node_modules"
