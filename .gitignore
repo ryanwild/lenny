@@ -1,2 +1,23 @@
+# Dependencies
 node_modules/
 
+# Environment variables
+.env
+.env.*
+
+# Build output
+/dist
+/build
+/.next
+/.svelte-kit
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+.npm
+.eslintcache   
